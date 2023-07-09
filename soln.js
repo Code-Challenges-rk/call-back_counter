@@ -2,7 +2,7 @@
  * @param {number} n
  * @return {Function} counter
  */
-var createCounter = function (n) {
+let createCounter = function (n) {
   let count = n;
   return function () {
     let result = count;
